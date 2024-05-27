@@ -1,0 +1,8 @@
+body{
+    background-image: url("ciel.jpg");
+    background-repeat: repeat;
+}
+h1,h2{
+    text-align: center;
+    color: rgb(134, 223, 32);
+}

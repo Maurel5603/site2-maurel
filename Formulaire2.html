@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sur HTML</title>
+    <link rel="stylesheet" href="Formulaire2.css">
+</head>
+<body>
+    <h2>Quiz sur le language HTML</h2>
+    <p>Bienvenue sur ce quiz basé sur le language HTML. L'objectif de ce quiz est de tester votre maîtrise de ce language. </p>
+    <br>
+    <form action="traitement2.html" method="post">
+        <fieldset>
+            <legend>Vos coordonnées</legend>
+            Votre nom <span class="color">*</span>: <br>
+            <input type="text" placeholder="Zinsou" name="nom" id="nom" required><br>
+            Votre prénom <span class="color">*</span>: <br>
+            <input type="text" placeholder="Maurel" name="prenom" id="prenom" required><br>
+            Votre addresse email <span class="color">*</span>: <br>
+            <input type="email" name="mail" id="mail" placeholder="addresse@gmail.com" required><br>
+            Votre âge <span class="color">*</span>: <br>
+            <select name="age" id="age" required>
+                <option selected>Choississez</option>
+                <option value="13">13 ans</option>
+                <option value="14">14 ans</option>
+                <option value="15">15 ans</option>
+                <option value="16">16 ans</option>
+                <option value="17">17 ans</option>
+                <option value="18">18 ans</option>
+                <option value="19">19 ans</option>
+                <option value="20">20 ans</option>
+                <option value="20">Plus de 20 ans</option>
+            </select><br>
+            Dans quel pays habitez-vous?<br>
+            <select name="pays" id="pays">
+                <optgroup label="Europe">
+                    <option value="France">France</option>
+                    <option value="Angleterre">Angleterre</option>
+                    <option value="Espagne">Espagne</option>
+                    <option value="Belgique">Belgique</option>
+                </optgroup>
+                <optgroup label="Afrique">
+                    <option value="Bénin">Bénin</option>
+                    <option value="Côte-d'ivoire">Côte-d'ivoire</option>
+                    <option value="Nigéria">Nigéria</option>
+                    <option value="Togo">Togo</option>
+                </optgroup>
+                <option value="autre">Autre</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Introduction sur HTML</legend>
+            Que signifie HTML <br>
+            <input type="checkbox" name="bad" id="bad">
+             <label for="bad">Hyper Terminal Mondialement Localisée</label><br>
+             <input type="checkbox" name="badly" id="badly">
+             <label for="badly">Hyper Text Market Language</label><br>
+             <input type="checkbox" name="good" id="good">
+             <label for="good">Hyper Text  Markup Language</label><br>
+             <input type="checkbox" name="sogood" id="sogood">
+             <label for="sogood">HyperText Markup Language</label><br>
+            <br>
+            A quoi sert le language html?<br>
+            <textarea name="utilité" id="utilité" cols="40" rows="10"></textarea>
+            <br>
+            De quoi a-t-on besoin pour coder en HTML?<br>
+             <input type="checkbox" name="utilite" id="utilite">
+             <label for="utilite">Un navigateur</label><br>
+             <input type="checkbox" name="utilite" id="utilite">
+             <label for="utilite">Une montre connecter</label><br>
+             <input type="checkbox" name="utilite" id="utilite">
+             <label for="utilite">Une souris sans fil</label><br>
+             <input type="checkbox" name="utilite" id="utilite">
+             <label for="utilite">Un éditeur de texte</label><br>
+             <input type="checkbox" name="utilite" id="utilite">
+             <label for="utilite">De l'argent</label>
+            <br>
+            <label>Quand vous enregistrez vos pages HTML, quelle extension devez-vous utiliser ?</label><br>
+            <input type="radio" name="txt" id="txt">
+            <label for="txt">.txt</label><br>
+            <input type="radio" name="html" id="html">
+            <label for="html">.html</label><br>
+            <input type="radio" name="web" id="web">
+            <label for="web">.web</label><br>
+            <input type="radio" name="www" id="www">
+            <label for="www">.www</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Approfondissons</legend>
+            Pourquoi le language HTML est appellé language balisée?<br>
+            <input type="radio" name="balise" id="balise">
+            <label for="balise">Il est né dans un système balisé</label><br>
+            <input type="radio" name="balise" id="balise">            
+            <label for="balise">On utilise des balises</label><br>
+            <input type="radio" name="balise" id="balise">
+            <label for="balise">Son créateur s'appelle Tom Balise</label><br>
+            <input type="radio" name="balise" id="balise">
+            <label for="balise">Sa sonne bien</label>
+            <br>
+            <label for="type">Quelles sont les types de balises qui existent?</label><br>
+            <textarea name="type" id="type" cols="30" rows="10"></textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Les attibuts</legend>
+            <p>Nous allons maintenant parler de quelques attributs utilisées en HTML</p>
+            <br>
+            <label>Quel attribut de la balise BODY… établit la couleur de fond d'une page web ?</label><br>
+            <input type="radio" name="a" id="a">
+            <label for="a"> BACKGROUND</label><br>
+            <input type="radio" name="b" id="b">
+            <label for="b">BACKCOLOR</label><br>
+            <input type="radio" name="c" id="c">
+            <label for="c">BGCOLOR</label><br>
+            <input type="radio" name="d" id="d">
+            <label for="d">BCOLOR</label>
+            <br>
+            <label> Que signifie l'attribut BGCOLOR de la balise BODY?</label><br>
+            <input type="radio" name="e" id="e">
+            <label for="e">Couleur de texte</label><br>
+            <input type="radio" name="f" id="f">
+            <label for="f">Couleur de l'arrière-plan</label><br>
+            <input type="radio" name="g" id="g">
+            <label for="g">Couleur de la cellule</label><br>
+            <input type="radio" name="h" id="h">
+            <label for="h">Couleur des images</label>
+            <br>
+            <label> Lequel des attributs est obligatoire dans la balise img ?</label><br>
+            <input type="radio" name="src" id="src">
+            <label for="src">src</label><br>
+            <input type="radio" name="href" id="href">
+            <label for="href">href</label><br>
+            <input type="radio" name="id" id="id">
+            <label for="id">id</label><br>
+            <input type="radio" name="alt" id="alt">
+            <label for="alt">alt</label><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Votre code</legend>
+            <p>Dans cette partie nous vous proposons de réaliser votre propre code. Vous êtes prêts?</p>
+            <label>Ecrivez le code html qui renvoie le résultat suivant en utilisant les balises b, i, et u <br>
+            <img src="capture1.jpeg" alt="images" id="capture1"></label><br>
+            <textarea name="code1" id="code1" cols="30" rows="20"></textarea><br>
+            <label>Ecrivez  l'extrait de code HTML qui réalise ce lien vers une adresse électronique <br>
+                <img src="capture2.jpeg" alt="capture2" id="capture2">
+            </label><br>
+            <textarea name="code2" id="code2" cols="30" rows="20"></textarea><br>
+        </fieldset>
+        <br>
+        <br>
+        <div class="container">
+        <input type="reset" value="vider" id="reset">
+        <input type="submit" value="Envoyer les informations" id="submit">    
+        </div>
+        
+    </form>
+</body>
+</html>

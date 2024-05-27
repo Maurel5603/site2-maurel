@@ -1,0 +1,38 @@
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+p{
+    color: darkgreen;
+    width: auto;
+}
+.color{
+    color: red;
+}
+input,textarea{
+    background-color: seashell;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#post{
+    padding: 5px;
+    margin-right: 50px;
+    background-color: lightgreen;
+    color: rgb(141, 19, 19);
+    cursor: pointer;
+}
+#post:hover{
+    background-color: green;
+}
+input:invalid{
+    background-color: #f0dddd;
+}

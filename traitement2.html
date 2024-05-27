@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultat du quiz</title>
+    <link rel="stylesheet" href="traitement2.css">
+</head>
+<body>
+    <h2>Résultat du quiz </h2>
+    <p>Merci d'avoir participer à ce quiz. Avez-vous trouvé toutes les réponses? Voici le corrigé du quiz</p><br>
+    <fieldset>
+        <legend>Introduction sur HTML</legend>
+            Que signifie HTML <br>
+            <textarea name="html" id="html">Le sigle HTML signifie HyperText Markup Language</textarea>
+            <br>
+            A quoi sert le language html?<br>
+            <textarea name="utilité" id="utilité" cols="40" rows="10">Le langage HTML permet de créer des pages web. Il est donc utilisé dans la réalisation de site internet.</textarea>
+            <br>
+            De quoi a-t-on besoin pour coder en HTML?<br>
+            <textarea name="utilité" id="utilité">Pour coder en HTML on a besoin de deux outils. Un éditeur de code (comme notead++, visual studio code ou bloc note) et un navigateur (Internet Explorer, Mozilla Firefox, Opera, Google Chrome, etc). On peur donc coder aussi bien sur téléphone que sur ordinateur. Mais nous vous conseillons quand même d'utiliser un ordinateur.</textarea>
+            <br>
+            <label>Quand vous enregistrez vos pages HTML, quelle extension devez-vous utiliser ?</label><br>
+            <textarea name="extension" id="extension">Il est clair que l'extension à utiliser est le .html car seul cette extension identifie votre document comme un fichier html</textarea>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Approfondissons</legend>
+            Pourquoi le language HTML est appellé language balisée?<br>
+            <textarea name="balise" id="balise">Tout simplement parceque le language utilise des balises pour fonctionner. Une balise commence par un chevron ouvrant "<" et se termine par un chevron fermant ">". Par exemple :<nom-de-la-balise></textarea>
+            <br>
+            <label for="type">Quelles sont les types de balises qui existent?</label><br>
+            <textarea name="type" id="type">Il existe 2 types de balises : certaines balises apparaissent toujours par paire, d'autres au contraire sont toutes seules.
+• Les balises existant par paire : ce sont les plus courantes. On écrit la première balise, on tape du texte, puis on "ferme" la balise en la réécrivant avec un slash devant "/". Par exemple :<balise-paire>mon texte</balise-paire>
+• Les balises seules : elles sont un peu plus rares, mais il y en a quand même. On s'en sert en général pour insérer un élément dans une page.<balise-seule>
+            </textarea>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Les attibuts</legend>
+        <br>
+        <label>Quel attribut de la balise BODY… établit la couleur de fond d'une page web ?</label><br>
+        <textarea name="fond" id="fond">Il s'agit de la balise BGCOLOR</textarea>
+        <br>
+        <label> Que signifie l'attribut BGCOLOR de la balise BODY?</label><br>
+        <textarea name="balise" id="balise">L'attribut BGCOLOR signifie couleur de l'arrière-plan</textarea>
+        <br>
+        <label> Lequel des attributs est obligatoire dans la balise img ?</label><br>
+        <textarea name="obligatoire" id="obligatoire">Il s'agit de l'attribut src qui indique la source de l'image</textarea>
+    </fieldset>
+    <br>
+        <fieldset>
+            <legend>Votre code</legend>
+            <label>Ecrivons le code html qui renvoie le résultat suivant en utilisant les balises b, i, et u <br>
+            <img src="capture1.jpeg" alt="images" id="capture1"></label><br>
+            <textarea name="code1" id="code1" cols="30" rows="20"><html>
+<title>Texte</title>
+<body>
+<p>Texte en <b>gras</b>, texte en <i>italique</i>, texte <u>souligné</u></p>
+</body>
+</html></textarea><br>
+            <label>Ecrivons  l'extrait de code HTML qui réalise ce lien vers une adresse électronique <br>
+            <img src="capture2.jpeg" alt="capture2" id="capture2">
+            </label><br>
+            <textarea name="code2" id="code2" cols="30" rows="20"><html>
+<title>Texte</title>
+<body>
+  <p>Ecrivez-moi à <a href="mailto:spastore2@free.fr">spastore2@free.fr</a></p>
+</body>
+</html> </textarea><br>
+        </fieldset>
+        <br>
+        <br>
+        <div class="container"><button ><a href="Formulaire2.html">Retour</a></button></div>
+</body>
+</html>

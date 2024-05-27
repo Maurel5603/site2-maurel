@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;
+}
+
+img.right{
+    border-radius: 50%;
+    height: 90px;
+    margin-top: 0%;
+}
+h2,h3,p{
+    color: black;
+    font-size: 120%;
+    margin-right: 10px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+h2,h3{
+    text-transform: uppercase;
+}

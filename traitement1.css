@@ -1,0 +1,41 @@
+body{
+    background-color: lightcyan;
+    font-size: 15px;
+    font-style: normal;
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+}
+p#post{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+textarea#ordinateur,#test{
+    width: 600px;
+    height: 60px;
+}
+textarea#sys,#text{
+    width: 600px;
+    height: 90px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #45a049;
+}
+textarea{
+    font-family: 'Times New Roman', Times, serif;
+}

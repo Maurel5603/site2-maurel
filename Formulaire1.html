@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="Formulaire1.css">
+</head>
+<body>
+    <h2>Quiz sur l'ordinateur</h2>
+    <p>Bienvenue sur ce test. Nombre d'entre nous utilise un ordinateur sans trop savoir de 
+            ses facultés. Vous allez donc à travers ce quiz nous faire part de vos connaissances en matière d'ordinateur
+    </p>
+    <br>
+    <form action="traitement1.html" method="post" name="traitement">
+        <p>Veuillez entrer vos coordonnées</p>
+        <fieldset>
+            <legend>Vos coordonnées</legend><!--Titre du fieldset-->
+            Votre nom <span class="color">*</span>: <br>
+            <input type="text" placeholder="Zinsou" name="nom" id="nom" required><br>
+            Votre prénom <span class="color">*</span>: <br>
+            <input type="text" placeholder="Maurel" name="prenom" id="prenom" required><br>
+            Votre addresse email <span class="color">*</span>: <br>
+            <input type="email" name="mail" id="mail" placeholder="addresse@gmail.com" required><br>
+            Votre âge <span class="color">*</span>: <br>
+            <select name="age" id="age" required>
+                <option selected>Choississez</option>
+                <option value="13">13 ans</option>
+                <option value="14">14 ans</option>
+                <option value="15">15 ans</option>
+                <option value="16">16 ans</option>
+                <option value="17">17 ans</option>
+                <option value="18">18 ans</option>
+                <option value="19">19 ans</option>
+                <option value="20">20 ans</option>
+                <option value="20">Plus de 20 ans</option>
+            </select><br>
+            Dans quel pays habitez-vous?<br>
+            <select name="pays" id="pays">
+                <optgroup label="Europe">
+                    <option value="France">France</option>
+                    <option value="Angleterre">Angleterre</option>
+                    <option value="Espagne">Espagne</option>
+                    <option value="Belgique">Belgique</option>
+                </optgroup>
+                <optgroup label="Afrique">
+                    <option value="Bénin">Bénin</option>
+                    <option value="Côte-d'ivoire">Côte-d'ivoire</option>
+                    <option value="Nigéria">Nigéria</option>
+                    <option value="Togo">Togo</option>
+                </optgroup>
+                <option value="autre">Autre</option>
+            </select>
+        </fieldset>
+        <br>
+        <p>Nous allons commencer par vérifier votre maitrise de l'ordinateur</p>
+        <br>
+        <fieldset>
+            <legend>Entrer la bonne réponse</legend>
+            <label for="ordinateur">Qu'est-ce qu'un ordinateur?</label><br>
+            <textarea name="ordi" id="ordinateur" cols="40" rows="5"></textarea>
+            <br>
+            <br>
+            Quelles sont les principaux constituants d'un ordinateur?<br>
+            <input type="checkbox" name="Processeur" id="Processeur" value="écran">
+            <label for="Processeur">Processeur</label><br>
+            <input type="checkbox" name="ardoise" id="ardoise" value="ardoise">
+            <label for="ardoise">Ardoise</label><br>
+            <input type="checkbox" name="carte" value="carte mère" id="carte">
+            <label for="carte">Carte mère</label><br>
+            <input type="checkbox" name="clavier" value="clavier" id="clavier">
+            <label for="clavier">Clavier</label><br>
+            <input type="checkbox" name="ecran" id="screen" value="écran">
+            <label for="screen">Ecran</label>
+        </fieldset>
+        <br>
+        <p>Nous allons maintenant vous tester sur les systèmes d'exploitation</p>
+        <br>
+        <fieldset>
+            <legend>systèmes d'exploitation</legend>
+            <label for="système">Qu'est-ce qu'un système d'exploitation?</label><br>
+            <textarea name="sys" id="sys" cols="20" rows="5"></textarea>
+            <br>
+            <br>
+            Quelles sont les systèmes d'exploitation qui existent? <br>
+            <input type="checkbox" name="Lini" id="lini" value="Lini">
+            <label for="lini">Lini</label><br>
+            <input type="checkbox" name="Windows" id="win" value="Windows">
+            <label for="win">Windows</label><br>
+            <input type="checkbox" name="lexus" value="Lexus" id="lexus">
+            <label for="lexus"></label>Lexus<br>
+            <input type="checkbox" name="mac" value="Mac OS" id="mac">
+            <label for="mac">Mac OS</label><br>
+            <input type="checkbox" name="adidas" id="adi" value="Adidas">
+            <label for="adi">Adidas</label><br>
+            <input type="checkbox" name="linux" id="linux" value="Linux">
+            <label for="linux">Linux</label>
+        </fieldset>
+        <br>
+        <br>
+        <div class="container">
+        <input type="reset" value="Vider" id="post">
+        <input type="submit" value="Envoyer les informations" id="post">    
+        </div>
+       
+        
+        
+       
+        
+    </form>
+</body>
+</html>

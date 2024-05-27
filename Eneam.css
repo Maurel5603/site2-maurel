@@ -1,0 +1,26 @@
+body{
+    background-color: beige;
+    background-size: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    size: 300px;
+}
+article{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+acronym{
+    text-decoration: none;
+}
+p{
+    width: auto;
+}
+a{
+    text-decoration: none;
+}
+#directeur{
+    text-align: center;
+}

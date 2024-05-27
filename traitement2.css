@@ -1,0 +1,35 @@
+body{
+    background-color: antiquewhite;
+    font-size: 16px;
+}
+h2{
+    text-align: center;
+    color: blue;
+}
+p{
+    text-align: center;
+}
+textarea{
+    width: 60%;
+    height: 150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    padding: 10px 15px;
+    background-color: darkorange;
+    color: white;
+    cursor: pointer;
+    border: none;
+    align-items: center;
+}
+button a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: lightseagreen;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

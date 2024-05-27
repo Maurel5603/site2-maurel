@@ -1,0 +1,33 @@
+body{
+    background-color: antiquewhite;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    color: rgb(23, 166, 214);
+}
+.color{
+    color: red;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#reset,#submit{
+    margin-right: 50px;
+    padding: 5px;
+    background-color: rgb(197, 238, 156);
+    color: rgb(41, 6, 6);
+    cursor: pointer;
+}
+#submit{
+    margin-left: 50px;
+}
+#reset:hover,#submit:hover{
+    background-color: lightcoral;
+}
+input:invalid{
+    background-color: #f0dddd;
+}
